@@ -179,13 +179,84 @@ new condition
 //   console.log("lucy");
 // }
 
-let randomNumber = Math.floor(Math.random() * 11);
-console.log(randomNumber);
+// let randomNumber = Math.floor(Math.random() * 11);
+// console.log(randomNumber);
 
-let randomNumber1 = prompt("Guess the number");
+// let randomNumber1 = prompt("Guess the number");
 
-if (randomNumber1 == randomNumber) {
-  alert("success");
-} else {
-  alert("failure");
+// if (randomNumber1 == randomNumber) {
+//   alert("success");
+// } else {
+//   alert("failure");
+// }
+
+////////////////////////////////////////
+// LLLLLLLLLLLLLLLLOOOOOOOOOOOOOOOOOOPPPPPPPPPPPPPPPSSSSSS
+// variables and data
+// let myName = "Kierstin"; // This a string
+// console.log(myName);
+
+// // conditions
+// if (myName === "Kierstin") {
+//   console.log(`Hey ${myName}`);
+// } else {
+//   console.log(false);
+// }
+
+// for
+for (let i = 0; i < 10; i++) {
+  console.log(i);
+}
+
+// arrays and methods
+let team = ["Kierstin", "Shampayne", "Lucy", "Deisy"];
+console.log(team);
+console.log(team.length);
+
+// push
+console.log(team.push("Leyanna"));
+console.log(team);
+// adding to array
+
+// pop take out last item in array
+// console.log(team.pop());
+// console.log(team);
+
+// // join separates by ""
+// console.log(team.join()); // "I" will go in the middle
+
+// //slice returns a new array
+// console.log(team);
+// console.log(team.slice(0, 3));
+
+// // split
+// let team1 = "john, mike, kierstin, lucy";
+// console.log(team1);
+// let teamSplit = team1.split(",");
+// console.log(teamSplit);
+
+// // looping thru array
+// for (let i = 0; i < team.length; i++) {
+//   console.log(team[i]); //`Hello ${team[i]};
+// }
+let rolesarray = [];
+let team22 = [];
+
+console.log(team22);
+console.log(team[5]);
+
+let team2 = prompt("Enter your team names");
+console.log(team2);
+let roles4 = prompt("Enter your team roles");
+console.log(roles4);
+
+let team23Split = team23.split(",");
+let team24Split = roles.split(",");
+console.log(teamSplit23);
+
+for (let i = 0; i < team23array.length; i++) {
+  console.log(i);
+  console.log(
+    `Hello my name is ${team23Spilt[i]} and I am the ${rolesarray[i]}`
+  );
 }
