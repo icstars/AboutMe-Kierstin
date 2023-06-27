@@ -204,19 +204,19 @@ new condition
 // }
 
 // for
-for (let i = 0; i < 10; i++) {
-  console.log(i);
-}
+// for (let i = 0; i < 10; i++) {
+//   console.log(i);
+// }
 
-// arrays and methods
-let team = ["Kierstin", "Shampayne", "Lucy", "Deisy"];
-console.log(team);
-console.log(team.length);
+// // arrays and methods
+// let team = ["Kierstin", "Shampayne", "Lucy", "Deisy"];
+// console.log(team);
+// console.log(team.length);
 
-// push
-console.log(team.push("Leyanna"));
-console.log(team);
-// adding to array
+// // push
+// console.log(team.push("Leyanna"));
+// console.log(team);
+// // adding to array
 
 // pop take out last item in array
 // console.log(team.pop());
@@ -239,24 +239,128 @@ console.log(team);
 // for (let i = 0; i < team.length; i++) {
 //   console.log(team[i]); //`Hello ${team[i]};
 // }
-let rolesarray = [];
-let team22 = [];
+// let rolesarray = [];
+// let team22 = [];
 
-console.log(team22);
-console.log(team[5]);
+// console.log(team22);
+// console.log(team[5]);
 
-let team2 = prompt("Enter your team names");
-console.log(team2);
-let roles4 = prompt("Enter your team roles");
-console.log(roles4);
+// let team2 = prompt("Enter your team names");
+// console.log(team2);
+// let roles4 = prompt("Enter your team roles");
+// console.log(roles4);
 
-let team23Split = team23.split(",");
-let team24Split = roles.split(",");
-console.log(teamSplit23);
+// let team23Split = team23.split(",");
+// let team24Split = roles.split(",");
+// console.log(teamSplit23);
 
-for (let i = 0; i < team23array.length; i++) {
-  console.log(i);
-  console.log(
-    `Hello my name is ${team23Spilt[i]} and I am the ${rolesarray[i]}`
-  );
+// for (let i = 0; i < team23array.length; i++) {
+//   console.log(i);
+//   console.log(
+//     `Hello my name is ${team23Spilt[i]} and I am the ${rolesarray[i]}`
+//   );
+// }
+
+// initializer
+// condition
+// interator
+
+// const arr = [1,2,3]
+
+// console.log(arr [2]) // 3
+
+// for (let initializer = 0; initializer < arr.length; initializer ++) {
+//   console.log(arr[initializer])
+// }
+
+//FUNCTIONS
+
+// ANCHOR - FUNCTION
+
+function thisIsTheFunctionName(name) {
+  //   console.log(name);
+  return name;
 }
+
+// TYPE THE FUNCTION NAME FOLLOWED BY ()
+thisIsTheFunctionName("collin"); // IN THE () IS THE ARGUEMENT
+
+// return statement
+
+// let name = thisIsTheFunctionName("vince");
+// let name2 = thisIsTheFunctionName("colin");
+
+// name = "colin";
+
+// let array2 = [1, 2, 3, 4, 5, 6];
+
+// for (let initializer = 0; initializer < array2.length; initializer++) {
+//   console.log(array2[initializer]);
+// }
+
+// function interateThroughArray(arr) {
+//   for (let initializer = 0; initializer < arr.length; initializer++) {
+//     console.log(arr[initializer]);
+//   }
+// }
+
+// interateThroughArray(array3);
+
+// function sum(num1, num2) {
+//   console.log(num1 + num2);
+// }
+
+// sum(1, 3);
+
+// function helloWorld(){
+//     console.log('hello world')
+// }
+
+// helloWorld()
+
+function pho(ingredient1, ingredient2) {
+  console.log(ingredient1 / ingredient2);
+}
+
+const function1 = function () {};
+// arrow function
+const function2 = () => {};
+
+let array10 = [1, 2, 3, 4, 5];
+
+const function21 = function (arr) {
+  for (let initializer = 0; initializer < arr.lenght; initializer++) {
+    console.log(arr[initializer]);
+  }
+};
+
+// function21(array10)
+
+// let users = ['collin', 'vince', 'haylee']
+
+// userinput = prompt('what is you username')
+
+// loop();
+
+// function blockScope() {
+//   let x = 0; // You cant access it in Global scope
+// }
+// console.log(x); // without () can't be accessed
+
+let day1 = ["Lucycan", "Collin", "Mark", "Cortez"];
+
+function blockScope(name) {
+  let day1 = ["Lucycan", "Collin", "Mark", "Cortez"];
+  day1.push(name);
+  return day1;
+}
+
+let blanca = "Blanca";
+
+function iterateArray(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+  }
+}
+let arr = blockScope(blanca);
+iterateArray(arr);
